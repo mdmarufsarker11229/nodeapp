@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "this is npm external package install project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "npm",
+    "nodemon",
+    "node.js"
+  ],
+  "author": "md maruf sarker",
+  "license": "ISC",
+  "dependencies": {
+    "movies-names": "^1.1.1",
+    "nodemon": "^3.1.1",
+    "random-fruits-name": "^1.10.0"
+  }
+}
